@@ -21,7 +21,49 @@ Namespace AsyncBreakfastVB
             Dim oj As Juice = PourOJ()
             Console.WriteLine("oj is ready")
             Console.WriteLine("Breakfast is ready!")
-            'Add your code here
+
+            Console.WriteLine()
+            Console.WriteLine()
+
+            '/******************************** BEGIN Testing inline *******************************/
+
+            Try
+                Console.WriteLine("Testing coffees...")
+                Assert.AreEqual(Coffee.coffeesPoured, coffeeToPour)
+            Catch ex As AssertionException
+                Console.WriteLine(ex.Message)
+            End Try
+            Console.WriteLine($"Coffees... checked... there are {Coffee.coffeesPoured} coffees on the table")
+            Console.WriteLine()
+
+            Try
+                Console.WriteLine("Testing eggs...")
+                Assert.AreEqual(Egg.eggsBoiled, eggsToBoil)
+            Catch ex As AssertionException
+                Console.WriteLine(ex.Message)
+            End Try
+            Console.WriteLine($"Eggs... checked... there are {Egg.eggsBoiled} eggs on the table")
+            Console.WriteLine()
+
+            Try
+                Console.WriteLine("Testing bacon...")
+                Assert.AreEqual(Bacon.baconFried, baconToFry)
+            Catch ex As AssertionException
+                Console.WriteLine(ex.Message)
+            End Try
+            Console.WriteLine($"Bacon... checked... there are {Bacon.baconFried} slices on the table")
+            Console.WriteLine()
+
+            Try
+                Console.WriteLine("Testing toasts...")
+                Assert.AreEqual(Toast.toastsMade, toastToMake)
+            Catch ex As AssertionException
+                Console.WriteLine(ex.Message)
+            End Try
+            Console.WriteLine($"Toasts... checked... there are {Toast.toastsMade} slices of bread on the table")
+            Console.WriteLine()
+
+            '/********************************* END Testing inline *******************************/
         End Sub
 
         Public Async Function RunTask() As Task(Of Boolean)
