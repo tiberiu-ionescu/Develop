@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hbEF07CEb6r09uuo79KxOCHI3bY5JydQvCLtKWGHW+aTSaIXmPik+MjjwMwHtYYpFYhILXSh+e34ovGeTiu4Fg==",
+  "success": true,
+  "projectFilePath": "D:\\Sourcetree\\develop\\AsyncBreakfastVB\\AsyncBreakfastVB\\AsyncBreakfastVB.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tiberiu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tiberiu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tiberiu\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}
