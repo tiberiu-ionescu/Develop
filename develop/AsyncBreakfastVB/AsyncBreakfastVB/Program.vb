@@ -21,7 +21,7 @@ Namespace AsyncBreakfastVB
             Dim oj As Juice = PourOJ()
             Console.WriteLine("oj is ready")
             Console.WriteLine("Breakfast is ready!")
-
+            'Add your code here
         End Sub
 
         Public Async Function RunTask() As Task(Of Boolean)
