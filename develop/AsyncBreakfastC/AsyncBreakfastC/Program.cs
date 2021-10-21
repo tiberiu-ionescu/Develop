@@ -50,7 +50,49 @@ namespace AsyncBreakfastC
             Juice oj = PourOJ();
             Console.WriteLine("oj is ready");
             Console.WriteLine("Breakfast is ready!");
-            
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            /******************************** BEGIN Testing inline *******************************/
+
+            try
+            {
+                Console.WriteLine("Testing coffees...");
+                Assert.AreEqual(Coffee.coffeesPoured, coffeeToPour);
+                Console.WriteLine($"Coffees... checked... there are {Coffee.coffeesPoured} coffees on the table");
+            }
+            catch (AssertionException ex) { Console.WriteLine(ex.Message); }
+            Console.WriteLine();
+
+            try
+            {
+                Console.WriteLine("Testing eggs...");
+                Assert.AreEqual(Egg.eggsBoiled, eggsToBoil);
+                Console.WriteLine($"Eggs... checked... there are {Egg.eggsBoiled} eggs on the table");
+            }
+            catch (AssertionException ex) { Console.WriteLine(ex.Message); }
+            Console.WriteLine();
+
+            try
+            {
+                Console.WriteLine("Testing bacon...");
+                Assert.AreEqual(Bacon.baconFried, baconToFry);
+                Console.WriteLine($"Bacon... checked... there are {Bacon.baconFried} slices on the table");
+            }
+            catch (AssertionException ex) { Console.WriteLine(ex.Message); }
+            Console.WriteLine();
+
+            try
+            {
+                Console.WriteLine("Testing toasts...");
+                Assert.AreEqual(Toast.toastsMade, toastToMake);
+                Console.WriteLine($"Toasts... checked... there are {Toast.toastsMade} slices of bread on the table");
+            }
+            catch (AssertionException ex) { Console.WriteLine(ex.Message); }
+            Console.WriteLine();
+
+            /********************************* END Testing inline *******************************/
         }
 
         static async Task<Toast> MakeToastWithButterAndJamAsync(int number)
