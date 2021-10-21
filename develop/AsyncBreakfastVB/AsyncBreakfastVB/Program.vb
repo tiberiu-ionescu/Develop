@@ -27,48 +27,72 @@ Namespace AsyncBreakfastVB
 
             '/******************************** BEGIN Testing inline *******************************/
 
-            Try
-                Console.WriteLine("Testing coffees...")
-                Assert.AreEqual(Coffee.coffeesPoured, coffeeToPour)
-            Catch ex As AssertionException
-                Console.WriteLine(ex.Message)
-            End Try
+            'Try
+            '    Console.WriteLine("Testing coffees...")
+            '    Assert.AreEqual(Coffee.coffeesPoured, coffeeToPour)
+            'Catch ex As AssertionException
+            '    Console.WriteLine(ex.Message)
+            'End Try
+            'Console.WriteLine($"Coffees... checked... there are {Coffee.coffeesPoured} coffees on the table")
+            'Console.WriteLine()
+
+            'Try
+            '    Console.WriteLine("Testing eggs...")
+            '    Assert.AreEqual(Egg.eggsBoiled, eggsToBoil)
+            'Catch ex As AssertionException
+            '    Console.WriteLine(ex.Message)
+            'End Try
+            'Console.WriteLine($"Eggs... checked... there are {Egg.eggsBoiled} eggs on the table")
+            'Console.WriteLine()
+
+            'Try
+            '    Console.WriteLine("Testing bacon...")
+            '    Assert.AreEqual(Bacon.baconFried, baconToFry)
+            'Catch ex As AssertionException
+            '    Console.WriteLine(ex.Message)
+            'End Try
+            'Console.WriteLine($"Bacon... checked... there are {Bacon.baconFried} slices on the table")
+            'Console.WriteLine()
+
+            'Try
+            '    Console.WriteLine("Testing toasts...")
+            '    Assert.AreEqual(Toast.toastsMade, toastToMake)
+            'Catch ex As AssertionException
+            '    Console.WriteLine(ex.Message)
+            'End Try
+            'Console.WriteLine($"Toasts... checked... there are {Toast.toastsMade} slices of bread on the table")
+            'Console.WriteLine()
+
+            '/********************************* END Testing inline *******************************/
+
+            '/******************************* BEGIN Testing in class *******************************/
+
+            Console.WriteLine("Testing coffees...")
+            TestAsync.CheckCoffees(coffeeToPour)
             Console.WriteLine($"Coffees... checked... there are {Coffee.coffeesPoured} coffees on the table")
             Console.WriteLine()
 
-            Try
-                Console.WriteLine("Testing eggs...")
-                Assert.AreEqual(Egg.eggsBoiled, eggsToBoil)
-            Catch ex As AssertionException
-                Console.WriteLine(ex.Message)
-            End Try
+            Console.WriteLine("Testing eggs...")
+            TestAsync.CheckEggs(eggsToBoil)
             Console.WriteLine($"Eggs... checked... there are {Egg.eggsBoiled} eggs on the table")
             Console.WriteLine()
 
-            Try
-                Console.WriteLine("Testing bacon...")
-                Assert.AreEqual(Bacon.baconFried, baconToFry)
-            Catch ex As AssertionException
-                Console.WriteLine(ex.Message)
-            End Try
+            Console.WriteLine("Testing bacon...")
+            TestAsync.CheckBacon(baconToFry)
             Console.WriteLine($"Bacon... checked... there are {Bacon.baconFried} slices on the table")
             Console.WriteLine()
 
-            Try
-                Console.WriteLine("Testing toasts...")
-                Assert.AreEqual(Toast.toastsMade, toastToMake)
-            Catch ex As AssertionException
-                Console.WriteLine(ex.Message)
-            End Try
+            Console.WriteLine("Testing toasts...")
+            TestAsync.CheckToasts(toastToMake)
             Console.WriteLine($"Toasts... checked... there are {Toast.toastsMade} slices of bread on the table")
             Console.WriteLine()
 
-            '/********************************* END Testing inline *******************************/
+            '/******************************** END Testing in class ********************************/
         End Sub
 
         Public Async Function RunTask() As Task(Of Boolean)
             Dim eggsTask = BoilEggsAsync(eggsToBoil)
-            Dim baconTask = FryBaconAsync(BaconToFry)
+            Dim baconTask = FryBaconAsync(baconToFry)
             Dim toastTask = MakeToastWithButterAndJamAsync(toastToMake)
 
             Dim breakfastTasks = New List(Of Task) From {eggsTask, baconTask, toastTask}
