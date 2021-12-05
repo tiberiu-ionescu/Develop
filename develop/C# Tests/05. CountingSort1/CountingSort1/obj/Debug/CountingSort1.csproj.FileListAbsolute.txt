@@ -1,9 +1,0 @@
-D:\Personale\Teste C#\CountingSort1\CountingSort1\bin\Debug\CountingSort1.exe.config
-D:\Personale\Teste C#\CountingSort1\CountingSort1\obj\Debug\CountingSort1.csprojResolveAssemblyReference.cache
-D:\Personale\Teste C#\CountingSort1\CountingSort1\bin\Debug\CountingSort1.exe
-D:\Personale\Teste C#\CountingSort1\CountingSort1\bin\Debug\CountingSort1.pdb
-D:\Personale\Teste C#\CountingSort1\CountingSort1\obj\Debug\CountingSort1.exe
-D:\Personale\Teste C#\CountingSort1\CountingSort1\obj\Debug\CountingSort1.pdb
-D:\Personale\C# Tests\05. CountingSort1\CountingSort1\bin\Debug\CountingSort1.exe.config
-D:\Personale\C# Tests\05. CountingSort1\CountingSort1\obj\Debug\CountingSort1.exe
-D:\Personale\C# Tests\05. CountingSort1\CountingSort1\obj\Debug\CountingSort1.pdb

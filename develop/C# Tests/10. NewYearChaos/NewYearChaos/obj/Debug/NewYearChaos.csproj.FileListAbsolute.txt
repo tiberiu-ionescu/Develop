@@ -1,7 +1,0 @@
-D:\Personale\Teste C#\NewYearChaos\NewYearChaos\bin\Debug\NewYearChaos.exe.config
-D:\Personale\C# Tests\10. NewYearChaos\NewYearChaos\bin\Debug\NewYearChaos.exe.config
-D:\Personale\C# Tests\10. NewYearChaos\NewYearChaos\bin\Debug\NewYearChaos.exe
-D:\Personale\C# Tests\10. NewYearChaos\NewYearChaos\bin\Debug\NewYearChaos.pdb
-D:\Personale\C# Tests\10. NewYearChaos\NewYearChaos\obj\Debug\NewYearChaos.csprojResolveAssemblyReference.cache
-D:\Personale\C# Tests\10. NewYearChaos\NewYearChaos\obj\Debug\NewYearChaos.exe
-D:\Personale\C# Tests\10. NewYearChaos\NewYearChaos\obj\Debug\NewYearChaos.pdb

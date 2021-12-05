@@ -1,6 +1,0 @@
-D:\Personale\C# Tests\AdRotation\AdRotation\bin\Debug\AdRotation.exe.config
-D:\Personale\C# Tests\AdRotation\AdRotation\bin\Debug\AdRotation.exe
-D:\Personale\C# Tests\AdRotation\AdRotation\bin\Debug\AdRotation.pdb
-D:\Personale\C# Tests\AdRotation\AdRotation\obj\Debug\AdRotation.csprojResolveAssemblyReference.cache
-D:\Personale\C# Tests\AdRotation\AdRotation\obj\Debug\AdRotation.exe
-D:\Personale\C# Tests\AdRotation\AdRotation\obj\Debug\AdRotation.pdb

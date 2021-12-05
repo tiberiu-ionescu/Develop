@@ -1,9 +1,0 @@
-D:\Personale\Teste C#\BalancedBrackets\BalancedBrackets\bin\Debug\BalancedBrackets.exe.config
-D:\Personale\Teste C#\BalancedBrackets\BalancedBrackets\bin\Debug\BalancedBrackets.exe
-D:\Personale\Teste C#\BalancedBrackets\BalancedBrackets\bin\Debug\BalancedBrackets.pdb
-D:\Personale\Teste C#\BalancedBrackets\BalancedBrackets\obj\Debug\BalancedBrackets.csprojResolveAssemblyReference.cache
-D:\Personale\Teste C#\BalancedBrackets\BalancedBrackets\obj\Debug\BalancedBrackets.exe
-D:\Personale\Teste C#\BalancedBrackets\BalancedBrackets\obj\Debug\BalancedBrackets.pdb
-D:\Personale\C# Tests\11. BalancedBrackets\BalancedBrackets\bin\Debug\BalancedBrackets.exe.config
-D:\Personale\C# Tests\11. BalancedBrackets\BalancedBrackets\obj\Debug\BalancedBrackets.exe
-D:\Personale\C# Tests\11. BalancedBrackets\BalancedBrackets\obj\Debug\BalancedBrackets.pdb

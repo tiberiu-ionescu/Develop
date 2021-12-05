@@ -1,7 +1,0 @@
-D:\Personale\C# Tests\NoPrefixSet\NoPrefixSet\bin\Debug\NoPrefixSet.exe.config
-D:\Personale\C# Tests\14. NoPrefixSet\NoPrefixSet\bin\Debug\NoPrefixSet.exe.config
-D:\Personale\C# Tests\14. NoPrefixSet\NoPrefixSet\bin\Debug\NoPrefixSet.exe
-D:\Personale\C# Tests\14. NoPrefixSet\NoPrefixSet\bin\Debug\NoPrefixSet.pdb
-D:\Personale\C# Tests\14. NoPrefixSet\NoPrefixSet\obj\Debug\NoPrefixSet.csprojResolveAssemblyReference.cache
-D:\Personale\C# Tests\14. NoPrefixSet\NoPrefixSet\obj\Debug\NoPrefixSet.exe
-D:\Personale\C# Tests\14. NoPrefixSet\NoPrefixSet\obj\Debug\NoPrefixSet.pdb

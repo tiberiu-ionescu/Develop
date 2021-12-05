@@ -1,6 +1,0 @@
-D:\Personale\C# Tests\MergeSortedLinkedLists\MergeSortedLinkedLists\bin\Debug\MergeSortedLinkedLists.exe.config
-D:\Personale\C# Tests\MergeSortedLinkedLists\MergeSortedLinkedLists\bin\Debug\MergeSortedLinkedLists.exe
-D:\Personale\C# Tests\MergeSortedLinkedLists\MergeSortedLinkedLists\bin\Debug\MergeSortedLinkedLists.pdb
-D:\Personale\C# Tests\MergeSortedLinkedLists\MergeSortedLinkedLists\obj\Debug\MergeSortedLinkedLists.csprojResolveAssemblyReference.cache
-D:\Personale\C# Tests\MergeSortedLinkedLists\MergeSortedLinkedLists\obj\Debug\MergeSortedLinkedLists.exe
-D:\Personale\C# Tests\MergeSortedLinkedLists\MergeSortedLinkedLists\obj\Debug\MergeSortedLinkedLists.pdb
