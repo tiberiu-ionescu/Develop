@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;_startButtonSvgImageCollection.Type" xml:space="preserve">
+    <value>DevExpress.Utils.SvgImageCollection, DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_measurementTreeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1090, 543</value>
+  </data>
+  <data name="_openFileLocationBarButtonItem.Description" xml:space="preserve">
+    <value>Speicherort der CSV Dateien öffnen</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_startBarButtonItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl1.ExpandCollapseItem.SearchTags" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;_startBarButtonItem.Name" xml:space="preserve">
+    <value>_startBarButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_stopCsvRecordBarButtonItem.Name" xml:space="preserve">
+    <value>_stopCsvRecordBarButtonItem</value>
+  </data>
+  <data name="_progressBarEditItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_protocolRibbonPageGroup.Text" xml:space="preserve">
+    <value>Protokoll</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_moduleFunctionsRibbonPageGroup.Text" xml:space="preserve">
+    <value>Modulfunktionen</value>
+  </data>
+  <data name="&gt;&gt;_openFileLocationBarButtonItem.Name" xml:space="preserve">
+    <value>_openFileLocationBarButtonItem</value>
+  </data>
+  <data name="_openFileLocationBarButtonItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;_printProtocolBarButtonItem.Name" xml:space="preserve">
+    <value>_printProtocolBarButtonItem</value>
+  </data>
+  <assembly alias="DevExpress.Data.v20.2" name="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="_startCsvRecordBarButtonItem.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAL8CAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iRmxvYXRpbmdPYmplY3RCcmluZ0luRnJvbnRPZlRleHQiIHN0eWxlPSJl
+        bmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyIj4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4K
+        CS5CbGFja3tmaWxsOiM3MjcyNzI7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KPC9zdHlsZT4NCiAgPHBh
+        dGggZD0iTTQsOGgxNHYySDRWOHogTTQsNmgxNFY0SDRWNnogTTEwLDIxYzAtMC4zLDAtMC43LDAuMS0x
+        SDJWMmgxOHY4LjFjMC4zLDAsMC43LTAuMSwxLTAuMXMwLjcsMCwxLDAuMVYxICBjMC0wLjUtMC41LTEt
+        MS0xSDFDMC41LDAsMCwwLjUsMCwxdjIwYzAsMC41LDAuNSwxLDEsMWg5LjFDMTAsMjEuNywxMCwyMS4z
+        LDEwLDIxeiBNNCwxNGg4LjVjMC42LTAuOCwxLjQtMS40LDIuMi0ySDRWMTR6IE00LDE4ICBoNi40YzAu
+        Mi0wLjcsMC41LTEuNCwwLjgtMkg0VjE4eiIgY2xhc3M9IkJsYWNrIiAvPg0KICA8Y2lyY2xlIGN4PSIy
+        MSIgY3k9IjIxIiByPSI5IiBjbGFzcz0iQmx1ZSIgLz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="&gt;&gt;_repositoryItemMarqueeProgressBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMarqueeProgressBar, DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;_printProtocolBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_backBarButtonItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_startCsvRecordBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_recordRibbonPageGroup.Text" xml:space="preserve">
+    <value>Messwerte Aufzeichnen</value>
+  </data>
+  <data name="_stopCsvRecordBarButtonItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mainViewRibbonPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;_protocolRibbonPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_startBarButtonItem.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAD8DAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
+        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuQmx1ZXtmaWxsOiMxMTc3
+        RDc7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7b3Bh
+        Y2l0eTowLjc1O30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuMjU7fQoJLnN0M3tm
+        aWxsOiNGRkIxMTU7fQo8L3N0eWxlPg0KICA8ZyAvPg0KICA8ZyBpZD0iQ29udmVydFRvIj4NCiAgICA8
+        cGF0aCBkPSJNMjIsNmwtNi02djRDOS40LDQsNCw5LjQsNCwxNmMwLDMuNiwxLjYsNi44LDQuMSw5bDIu
+        OC0yLjhjLTEuOC0xLjUtMy0zLjctMy02LjJjMC00LjQsMy42LTgsOC04djRMMjIsNnoiIGNsYXNzPSJH
+        cmVlbiIgLz4NCiAgICA8cGF0aCBkPSJNMjMuOSw3TDIxLDkuOGMxLjgsMS41LDMsMy43LDMsNi4yYzAs
+        NC40LTMuNiw4LTgsOHYtNGwtNiw2bDYsNnYtNGM2LjYsMCwxMi01LjQsMTItMTIgICBDMjgsMTIuNCwy
+        Ni40LDkuMiwyMy45LDd6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="&gt;&gt;_measurementTreeList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_backBarButtonItem.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAF4CAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
+        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjc1O30KPC9zdHlsZT4NCiAgPGcgaWQ9IlByZXZpb3VzVmlldyI+DQogICAgPHBhdGggZD0i
+        TTE2LDJDOC4zLDIsMiw4LjMsMiwxNnM2LjMsMTQsMTQsMTRzMTQtNi4zLDE0LTE0UzIzLjcsMiwxNiwy
+        eiBNMjQsMThoLTh2NmwtOC04bDgtOHY2aDhWMTh6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9z
+        dmc+Cw==
+</value>
+  </data>
+  <data name="&gt;&gt;_stopCsvRecordBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_moduleFunctionsRibbonPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_printProtocolBarButtonItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="_startCsvRecordBarButtonItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;_recordRibbonPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MeasurementControlItem.Name" xml:space="preserve">
+    <value>MeasurementControlItem</value>
+  </data>
+  <data name="&gt;&gt;_recordRibbonPageGroup.Name" xml:space="preserve">
+    <value>_recordRibbonPageGroup</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;_backBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;_backBarButtonItem.Name" xml:space="preserve">
+    <value>_backBarButtonItem</value>
+  </data>
+  <data name="ribbonControl1.ExpandCollapseItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;_openFileLocationBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_progressBarEditItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="_progressBarEditItem.EditWidth" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;_protocolRibbonPageGroup.Name" xml:space="preserve">
+    <value>_protocolRibbonPageGroup</value>
+  </data>
+  <data name="_printProtocolBarButtonItem.Caption" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="&gt;&gt;_startBarButtonItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;_progressBarEditItem.Name" xml:space="preserve">
+    <value>_progressBarEditItem</value>
+  </data>
+  <data name="_progressRibbonPageGroup.Text" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="&gt;&gt;MeasurementControlItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;_measurementTreeList.Name" xml:space="preserve">
+    <value>_measurementTreeList</value>
+  </data>
+  <data name="_startCsvRecordBarButtonItem.Caption" xml:space="preserve">
+    <value>Aufzeichnen</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;behaviorManager1.Name" xml:space="preserve">
+    <value>behaviorManager1</value>
+  </data>
+  <data name="_naivgationRibbonPageGroup.Text" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="_stopCsvRecordBarButtonItem.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAALIBAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KPC9z
+        dHlsZT4NCiAgPHBhdGggZD0iTTI1LDI2SDdjLTAuNiwwLTEtMC41LTEtMVY3YzAtMC42LDAuNC0xLDEt
+        MWgxOGMwLjUsMCwxLDAuNCwxLDF2MThDMjYsMjUuNSwyNS41LDI2LDI1LDI2eiIgY2xhc3M9IkJsdWUi
+        IC8+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="_measurementTreeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="_backBarButtonItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_openFileLocationBarButtonItem.Caption" xml:space="preserve">
+    <value>Speicherort öffnen</value>
+  </data>
+  <data name="&gt;&gt;_measurementTreeList.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="_progressBarEditItem.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_openFileLocationBarButtonItem.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAJQCAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iT3BlbiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIg
+        MzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJLnN0
+        MHtvcGFjaXR5OjAuNzU7fQo8L3N0eWxlPg0KICA8ZyBjbGFzcz0ic3QwIj4NCiAgICA8cGF0aCBkPSJN
+        Mi4yLDI1LjJsNS41LTEyYzAuMy0wLjcsMS0xLjIsMS44LTEuMkgyNlY5YzAtMC42LTAuNC0xLTEtMUgx
+        MlY1YzAtMC42LTAuNC0xLTEtMUgzQzIuNCw0LDIsNC40LDIsNXYyMCAgIGMwLDAuMiwwLDAuMywwLjEs
+        MC40QzIuMSwyNS4zLDIuMiwyNS4zLDIuMiwyNS4yeiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPC9nPg0K
+        ICA8cGF0aCBkPSJNMzEuMywxNEg5LjZMNCwyNmgyMS44YzAuNSwwLDEuMS0wLjMsMS4zLTAuN0wzMiwx
+        NC43QzMyLjEsMTQuMywzMS44LDE0LDMxLjMsMTR6IiBjbGFzcz0iWWVsbG93IiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="&gt;&gt;mainViewRibbonPage.Name" xml:space="preserve">
+    <value>mainViewRibbonPage</value>
+  </data>
+  <data name="&gt;&gt;_naivgationRibbonPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_stopCsvRecordBarButtonItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;_progressRibbonPageGroup.Name" xml:space="preserve">
+    <value>_progressRibbonPageGroup</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="_stopCsvRecordBarButtonItem.Caption" xml:space="preserve">
+    <value>Aufzeichnung stoppen</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 563</value>
+  </data>
+  <data name="&gt;&gt;_naivgationRibbonPageGroup.Name" xml:space="preserve">
+    <value>_naivgationRibbonPageGroup</value>
+  </data>
+  <data name="&gt;&gt;_startCsvRecordBarButtonItem.Name" xml:space="preserve">
+    <value>_startCsvRecordBarButtonItem</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 713</value>
+  </data>
+  <data name="_backBarButtonItem.Caption" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="_measurementTreeList.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="_startCsvRecordBarButtonItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 150</value>
+  </data>
+  <data name="&gt;&gt;_repositoryItemMarqueeProgressBar.Name" xml:space="preserve">
+    <value>_repositoryItemMarqueeProgressBar</value>
+  </data>
+  <data name="&gt;&gt;_startButtonSvgImageCollection.Name" xml:space="preserve">
+    <value>_startButtonSvgImageCollection</value>
+  </data>
+  <data name="mainViewRibbonPage.Text" xml:space="preserve">
+    <value>ribbonPage1</value>
+  </data>
+  <data name="&gt;&gt;_progressRibbonPageGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_openFileLocationBarButtonItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonControl1.ExpandCollapseItem.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonControl1.ExpandCollapseItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;_progressBarEditItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_startBarButtonItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_printProtocolBarButtonItem.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi41
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAEcCAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iUXVpY2tfUHJpbnQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcg
+        MCAwIDMyIDMyIj4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5CbGFja3tmaWxsOiM3MjcyNzI7
+        fQo8L3N0eWxlPg0KICA8cGF0aCBkPSJNMTAsMmgxMnY4aDJWMEg4djEwaDJWMnogTTI4LDhoLTJ2M2Mw
+        LDAuNi0wLjQsMS0xLDFIN2MtMC42LDAtMS0wLjQtMS0xVjhINGMtMS4xLDAtMiwwLjktMiwydjEyICBj
+        MCwxLjEsMC45LDIsMiwyaDR2NmgxNnYtNmg0YzEuMSwwLDItMC45LDItMlYxMEMzMCw4LjksMjkuMSw4
+        LDI4LDh6IE0yMiwyMnYydjRIMTB2LTR2LTJ2LTRoMTJWMjJ6IE0yMCwyNGgtOHYyaDhWMjR6IE0yMCwy
+        MGgtOHYyICBoOFYyMHoiIGNsYXNzPSJCbGFjayIgLz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="_startBarButtonItem.Caption" xml:space="preserve">
+    <value>Zyklisches Auslesen</value>
+  </data>
+  <data name="&gt;&gt;_measurementTreeList.Type" xml:space="preserve">
+    <value>De.VwAudi.Idex.Common.Gui.Control.MeasurementTreeList, iDEX.Common.GUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f13e1cad8c899297</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MeasurementResults</value>
+  </data>
+  <data name="&gt;&gt;_moduleFunctionsRibbonPageGroup.Name" xml:space="preserve">
+    <value>_moduleFunctionsRibbonPageGroup</value>
+  </data>
+  <data name="&gt;&gt;behaviorManager1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Behaviors.BehaviorManager, DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_printProtocolBarButtonItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="behaviorManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="_startButtonSvgImageCollection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>171, 17</value>
+  </metadata>
+</root>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{491EB611-5DB4-4145-A51D-A784ABF9C15C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpecialTools.ProductionModeService</RootNamespace>
+    <AssemblyName>SpecialTools.ProductionModeService</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Utils, Version=2.36.0.0, Culture=neutral, PublicKeyToken=79684975feaa049a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Utils.2.36.0\lib\net452\Common.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Mvvm.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Idex.Essentials.Loader, Version=163.1.0.0, Culture=neutral, PublicKeyToken=836c20427e93a665" />
+    <Reference Include="JetBrains.Annotations, Version=10.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.10.0.0\lib\net20\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.5.11\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventArguments\ResponseReceivedEventArgs.cs" />
+    <Compile Include="Messaging\ActionInfo\ActionInfoLogLevel.cs" />
+    <Compile Include="Messaging\ActionInfo\CommandSendActionInfo.cs" />
+    <Compile Include="Messaging\ActionInfo\InteractorActionInfo.cs" />
+    <Compile Include="Messaging\MenuBar\CommandToolWorkFinished.cs" />
+    <Compile Include="Messaging\MenuBar\CommandToolWorkStarted.cs" />
+    <Compile Include="Messaging\MenuBar\InteractorMenuBar.cs" />
+    <Compile Include="Messaging\ProductionMode\InteractorProductionMode.cs" />
+    <Compile Include="Messaging\ProductionMode\Progress\ProductionModeEcuListProgress.cs" />
+    <Compile Include="Messaging\ProductionMode\Progress\ProductionModeEcuModificationStartedProgress.cs" />
+    <Compile Include="Messaging\ProductionMode\Progress\ProductionModeEcuStatusProgress.cs" />
+    <Compile Include="Messaging\ProductionMode\Requests\ProductionModeActivateRequest.cs" />
+    <Compile Include="Messaging\ProductionMode\Requests\ProductionModeDeactivateRequest.cs" />
+    <Compile Include="Messaging\ProductionMode\Requests\ReadProductionModeQuery.cs" />
+    <Compile Include="Messaging\ProductionMode\Responses\GatewayBusyResult.cs" />
+    <Compile Include="Messaging\ProductionMode\Responses\NoProjectResult.cs" />
+    <Compile Include="Messaging\ProductionMode\Responses\ProductionModeActivationResponse.cs" />
+    <Compile Include="Messaging\ProductionMode\Responses\ProductionModeDeactivationResponse.cs" />
+    <Compile Include="Messaging\ProductionMode\Responses\ProductionModeNotSupportedResult.cs" />
+    <Compile Include="Messaging\ProductionMode\Responses\ReadProductionModeResult.cs" />
+    <Compile Include="Messaging\ProductionMode\Types\EcuProductionModeState.cs" />
+    <Compile Include="Messaging\ProductionMode\Types\ProductionModeResultType.cs" />
+    <Compile Include="Messaging\ProductionMode\Types\ProductionModeState.cs" />
+    <Compile Include="Messaging\ToolGotFocus\CommandToolGotFocus.cs" />
+    <Compile Include="Messaging\ToolGotFocus\InteractorToolGotFocus.cs" />
+    <Compile Include="Messaging\ToolInfo\InteractorToolInfo.cs" />
+    <Compile Include="Messaging\ToolInfo\QueryToolInfo.cs" />
+    <Compile Include="Messaging\ToolInfo\ResultBitmapIcon.cs" />
+    <Compile Include="Messaging\ToolInfo\ResultDisplayGroupName.cs" />
+    <Compile Include="Messaging\ToolInfo\ResultDisplayToolDescription.cs" />
+    <Compile Include="Messaging\ToolInfo\ResultDisplayToolName.cs" />
+    <Compile Include="Messaging\ToolInfo\ResultSvgIcon.cs" />
+    <Compile Include="Messaging\ToolInfo\ResultToolInfo.cs" />
+    <Compile Include="Messaging\ProductionModeServiceMessageAbstractor.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MainModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.es.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductionModeService.cs" />
+    <Compile Include="ToolInformation.cs" />
+    <Compile Include="Types\EcuState.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\MainView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainView.en.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainView.es.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\ExternalLibs\DevExpress.BonusSkins.v20.2.dll">
+      <Link>Devexpress\DevExpress.BonusSkins.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.Data.v20.2.dll">
+      <Link>Devexpress\DevExpress.Data.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.Images.v20.2.dll">
+      <Link>Devexpress\DevExpress.Images.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.Office.v20.2.Core.dll">
+      <Link>Devexpress\DevExpress.Office.v20.2.Core.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.RichEdit.v20.2.Core.dll">
+      <Link>Devexpress\DevExpress.RichEdit.v20.2.Core.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.Utils.v20.2.dll">
+      <Link>Devexpress\DevExpress.Utils.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraBars.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraBars.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraEditors.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraEditors.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraGauges.v20.2.Core.dll">
+      <Link>Devexpress\DevExpress.XtraGauges.v20.2.Core.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraGauges.v20.2.Win.dll">
+      <Link>Devexpress\DevExpress.XtraGauges.v20.2.Win.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraGrid.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraGrid.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraLayout.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraLayout.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraPrinting.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraPrinting.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraTreeList.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraTreeList.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.XtraVerticalGrid.v20.2.dll">
+      <Link>Devexpress\DevExpress.XtraVerticalGrid.v20.2.dll</Link>
+    </Content>
+    <Content Include="..\ExternalLibs\DevExpress.Mvvm.v20.2.dll">
+      <Link>Devexpress\DevExpress.Mvvm.v20.2.dll</Link>
+    </Content>
+    <EmbeddedResource Include="Resources\productionMode.png" />
+    <EmbeddedResource Include="Resources\productionMode.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IdexCommonCommunication.IdexMessages\IdexCommonCommunication.IdexMessages.csproj">
+      <Project>{E49A15D4-CF8C-4D12-AF9E-D891FF99F8E2}</Project>
+      <Name>IdexCommonCommunication.IdexMessages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IdexCommonCommunication.Interaction\IdexCommonCommunication.Interaction.csproj">
+      <Project>{7912605B-057A-483F-8660-AAF80D01A8FE}</Project>
+      <Name>IdexCommonCommunication.Interaction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IdexCommonGui\IdexCommonGui.csproj">
+      <Project>{EB176E11-5872-4C25-9DB0-A9465E556FF5}</Project>
+      <Name>IdexCommonGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpecialTools.Contracts\SpecialTools.Contracts.csproj">
+      <Project>{79922f45-11a2-4cac-b2b6-38e16b67eceb}</Project>
+      <Name>SpecialTools.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="AfterBuild" DependsOnTargets="AssignTargetPaths;Compile;ResolveKeySource" Inputs="$(MSBuildAllProjects);@(IntermediateAssembly)" Outputs="$(OutputPath)$(_SGenDllName)">
+    <Delete Files="$(TargetDir)$(TargetName).XmlSerializers.dll" ContinueOnError="true" />
+    <SGen BuildAssemblyName="$(TargetFileName)" BuildAssemblyPath="$(OutputPath)" References="@(ReferencePath)" ShouldGenerateSerializer="true" UseProxyTypes="false" KeyContainer="$(KeyContainerName)" KeyFile="$(KeyOriginatorFile)" DelaySign="$(DelaySign)" ToolPath="$(TargetFrameworkSDKToolsDirectory)" Platform="$(Platform)">
+      <Output TaskParameter="SerializationAssembly" ItemName="SerializationAssembly" />
+    </SGen>
+  </Target>
+</Project>

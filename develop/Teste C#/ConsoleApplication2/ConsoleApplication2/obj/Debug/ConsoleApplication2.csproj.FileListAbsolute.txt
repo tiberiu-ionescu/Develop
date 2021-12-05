@@ -1,0 +1,6 @@
+D:\Personale\Teste C#\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\Personale\Teste C#\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\Personale\Teste C#\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\Personale\Teste C#\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+D:\Personale\Teste C#\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\Personale\Teste C#\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

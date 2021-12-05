@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTION_INFO_ACTIVATED" xml:space="preserve">
+    <value>¡El proceso de activación del modo de producción finalizó!</value>
+  </data>
+  <data name="ACTION_INFO_ACTIVATING" xml:space="preserve">
+    <value>¡Activando el modo de producción!</value>
+  </data>
+  <data name="ACTION_INFO_DEACTIVATED" xml:space="preserve">
+    <value>¡El proceso de desactivación del modo de producción finalizó!</value>
+  </data>
+  <data name="ACTION_INFO_DEACTIVATING" xml:space="preserve">
+    <value>¡Desactivación del modo de producción!</value>
+  </data>
+  <data name="ACTION_INFO_ECU_FAIL" xml:space="preserve">
+    <value>Es posible que {0} no esté configurado correctamente. Razón: {1}</value>
+    <comment>{0} Localized Name of ECU;    {1} Error Reason</comment>
+  </data>
+  <data name="ACTION_INFO_ECU_IN_STATE" xml:space="preserve">
+    <value>{0} ahora está en el estado {1}</value>
+    <comment>{0} Localized Name of ECU;    {1} State of ECU</comment>
+  </data>
+  <data name="ACTION_INFO_ECU_MODIFICATION_STARTED" xml:space="preserve">
+    <value>El modo de producción de {0} se establecerá en {1} ...</value>
+    <comment>{0} Localized Name of ECU;    {1} Target State of ECU</comment>
+  </data>
+  <data name="ACTION_INFO_READING" xml:space="preserve">
+    <value>¡Lectura del estado del modo de producción!</value>
+  </data>
+  <data name="ACTION_INFO_READING_COMPLETE" xml:space="preserve">
+    <value>Se leyó el estado del modo de producción</value>
+  </data>
+  <data name="ACTION_INFO_SETTING_FOR_X_ECUS" xml:space="preserve">
+    <value>Configuración del modo de producción para {0} ECU</value>
+    <comment>{0} Count of ECUs</comment>
+  </data>
+  <data name="ACTION_INFO_WAITING_FOR_MASTER" xml:space="preserve">
+    <value>{0} ahora está configurado para esperar la señal maestra del modo de producción</value>
+    <comment>{0} Localized Name of ECU</comment>
+  </data>
+  <data name="ACTIVATE" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="ACTIVATING" xml:space="preserve">
+    <value>Activando</value>
+  </data>
+  <data name="CHECK" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="CHECKING" xml:space="preserve">
+    <value>Comprobación</value>
+  </data>
+  <data name="COULD_NOT_CONNECT_TO_GATEWAY" xml:space="preserve">
+    <value>No se pudo conectar a Gateway</value>
+  </data>
+  <data name="DEACTIVATE" xml:space="preserve">
+    <value>Desactivar</value>
+  </data>
+  <data name="DEACTIVATING" xml:space="preserve">
+    <value>Desactivando</value>
+  </data>
+  <data name="LOCALIZED_GROUP_NAME" xml:space="preserve">
+    <value>Grupo Principal</value>
+  </data>
+  <data name="LOCALIZED_TOOL_DESCRIPTION" xml:space="preserve">
+    <value>Herramienta para leer y configurar el modo de production</value>
+  </data>
+  <data name="LOCALIZED_TOOL_NAME" xml:space="preserve">
+    <value>Modo de production</value>
+  </data>
+  <data name="NO_PROJECT" xml:space="preserve">
+    <value>¡El proyecto no se ha configurado!</value>
+  </data>
+  <data name="NO_PROJECT_ERROR_MSG" xml:space="preserve">
+    <value>Sin proyecto</value>
+  </data>
+  <data name="PRODUCTION_MODE_NOT_SUPPORTED" xml:space="preserve">
+    <value>No hay ECU en P-Modo disponible</value>
+  </data>
+  <data name="RESULTS" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="RESULT_ACCESS_DENIED" xml:space="preserve">
+    <value>Acceso denegado</value>
+  </data>
+  <data name="RESULT_ADAPTATION_MISSING" xml:space="preserve">
+    <value>Falta adaptación</value>
+  </data>
+  <data name="RESULT_ADAPTATION_WRITE_FAILED" xml:space="preserve">
+    <value>Error de escritura de adaptación</value>
+  </data>
+  <data name="RESULT_ADAPTATION_WRITE_NRC" xml:space="preserve">
+    <value>Adaptación Escribir NRC</value>
+  </data>
+  <data name="RESULT_CONNECTION_FAILED" xml:space="preserve">
+    <value>La conexión falló</value>
+  </data>
+  <data name="RESULT_CUSTOM_HEX_SERVICE_DISPATCH_FAILED" xml:space="preserve">
+    <value>Error en el envío del servicio HEX personalizado</value>
+  </data>
+  <data name="RESULT_CUSTOM_HEX_SERVICE_NRC" xml:space="preserve">
+    <value>Servicio HEX personalizado NRC</value>
+  </data>
+  <data name="RESULT_DIAGNOSTIC_TASK_CREATION_FAILED" xml:space="preserve">
+    <value>Error al crear la tarea de diagnóstico</value>
+  </data>
+  <data name="RESULT_ERROR" xml:space="preserve">
+    <value>ERROR</value>
+  </data>
+  <data name="RESULT_INVALID_PIN" xml:space="preserve">
+    <value>PIN inválido</value>
+  </data>
+  <data name="RESULT_MEASUREMENT_BLOCK_MISSING" xml:space="preserve">
+    <value>Falta bloque de medida</value>
+  </data>
+  <data name="RESULT_NO_ERROR" xml:space="preserve">
+    <value>No hay error</value>
+  </data>
+  <data name="RESULT_PMODE_MASTER_NOT_SET" xml:space="preserve">
+    <value>PMODE Master no configurado</value>
+  </data>
+  <data name="RESULT_RESTART_FAILED" xml:space="preserve">
+    <value>Reinicio fallido</value>
+  </data>
+  <data name="RESULT_SESSION_CHANGE_FAILED" xml:space="preserve">
+    <value>Error en el cambio de sesión</value>
+  </data>
+  <data name="RESULT_STATE_DID_NOT_CHANGE" xml:space="preserve">
+    <value>El estado no cambió</value>
+  </data>
+  <data name="RESULT_SUCCESS" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RESULT_UNKNOWN_ERROR" xml:space="preserve">
+    <value>Error desconocido</value>
+  </data>
+  <data name="STATE_ACTIVE" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="STATE_INACTIVE" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="STATE_UNKNOWN" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+  <data name="STATE_WAITING_FOR_MASTER" xml:space="preserve">
+    <value>Esperando el interruptor principal...</value>
+  </data>
+  <data name="TOOL_NAME" xml:space="preserve">
+    <value>ProductionModeService</value>
+  </data>
+</root>
