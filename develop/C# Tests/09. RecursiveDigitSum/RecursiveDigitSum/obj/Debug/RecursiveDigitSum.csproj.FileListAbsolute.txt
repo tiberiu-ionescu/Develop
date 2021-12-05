@@ -1,0 +1,9 @@
+D:\Personale\Teste C#\RecursiveDigitSum\RecursiveDigitSum\bin\Debug\RecursiveDigitSum.exe.config
+D:\Personale\Teste C#\RecursiveDigitSum\RecursiveDigitSum\obj\Debug\RecursiveDigitSum.csprojResolveAssemblyReference.cache
+D:\Personale\Teste C#\RecursiveDigitSum\RecursiveDigitSum\bin\Debug\RecursiveDigitSum.exe
+D:\Personale\Teste C#\RecursiveDigitSum\RecursiveDigitSum\bin\Debug\RecursiveDigitSum.pdb
+D:\Personale\Teste C#\RecursiveDigitSum\RecursiveDigitSum\obj\Debug\RecursiveDigitSum.exe
+D:\Personale\Teste C#\RecursiveDigitSum\RecursiveDigitSum\obj\Debug\RecursiveDigitSum.pdb
+D:\Personale\C# Tests\09. RecursiveDigitSum\RecursiveDigitSum\bin\Debug\RecursiveDigitSum.exe.config
+D:\Personale\C# Tests\09. RecursiveDigitSum\RecursiveDigitSum\obj\Debug\RecursiveDigitSum.exe
+D:\Personale\C# Tests\09. RecursiveDigitSum\RecursiveDigitSum\obj\Debug\RecursiveDigitSum.pdb

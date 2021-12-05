@@ -1,0 +1,17 @@
+D:\Linq\PlusMinus\PlusMinus\bin\Debug\PlusMinus.exe.config
+D:\Linq\PlusMinus\PlusMinus\bin\Debug\PlusMinus.exe
+D:\Linq\PlusMinus\PlusMinus\bin\Debug\PlusMinus.pdb
+D:\Linq\PlusMinus\PlusMinus\obj\Debug\PlusMinus.csprojResolveAssemblyReference.cache
+D:\Linq\PlusMinus\PlusMinus\obj\Debug\PlusMinus.exe
+D:\Linq\PlusMinus\PlusMinus\obj\Debug\PlusMinus.pdb
+D:\Personale\Teste C#\PlusMinus\PlusMinus\bin\Debug\PlusMinus.exe.config
+D:\Personale\Teste C#\PlusMinus\PlusMinus\obj\Debug\PlusMinus.exe
+D:\Personale\Teste C#\PlusMinus\PlusMinus\obj\Debug\PlusMinus.pdb
+D:\Personale\Teste C#\PlusMinus\PlusMinus\bin\Debug\PlusMinus.exe
+D:\Personale\Teste C#\PlusMinus\PlusMinus\bin\Debug\PlusMinus.pdb
+D:\Personale\Teste C#\00. PlusMinus\PlusMinus\bin\Debug\PlusMinus.exe.config
+D:\Personale\Teste C#\00. PlusMinus\PlusMinus\obj\Debug\PlusMinus.exe
+D:\Personale\Teste C#\00. PlusMinus\PlusMinus\obj\Debug\PlusMinus.pdb
+D:\Personale\C# Tests\00. PlusMinus\PlusMinus\bin\Debug\PlusMinus.exe.config
+D:\Personale\C# Tests\00. PlusMinus\PlusMinus\obj\Debug\PlusMinus.exe
+D:\Personale\C# Tests\00. PlusMinus\PlusMinus\obj\Debug\PlusMinus.pdb

@@ -1,0 +1,7 @@
+D:\Personale\C# Tests\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe.config
+D:\Personale\C# Tests\12. StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe.config
+D:\Personale\C# Tests\12. StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe
+D:\Personale\C# Tests\12. StackImplementation\StackImplementation\bin\Debug\StackImplementation.pdb
+D:\Personale\C# Tests\12. StackImplementation\StackImplementation\obj\Debug\StackImplementation.exe
+D:\Personale\C# Tests\12. StackImplementation\StackImplementation\obj\Debug\StackImplementation.pdb
+D:\Personale\C# Tests\12. StackImplementation\StackImplementation\obj\Debug\StackImplementation.csprojResolveAssemblyReference.cache

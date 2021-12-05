@@ -1,0 +1,9 @@
+D:\Personale\Teste C#\LonelyInteger\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe.config
+D:\Personale\Teste C#\LonelyInteger\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe
+D:\Personale\Teste C#\LonelyInteger\LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.pdb
+D:\Personale\Teste C#\LonelyInteger\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.exe
+D:\Personale\Teste C#\LonelyInteger\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.pdb
+D:\Personale\Teste C#\LonelyInteger\LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.csprojResolveAssemblyReference.cache
+D:\Personale\C# Tests\03. LonelyInteger\LonelyInteger\bin\Debug\LonelyInteger.exe.config
+D:\Personale\C# Tests\03. LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.exe
+D:\Personale\C# Tests\03. LonelyInteger\LonelyInteger\obj\Debug\LonelyInteger.pdb

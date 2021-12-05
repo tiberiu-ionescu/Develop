@@ -1,0 +1,5 @@
+D:\Personale\C# Tests\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe.config
+D:\Personale\C# Tests\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
+D:\Personale\C# Tests\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+D:\Personale\C# Tests\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
+D:\Personale\C# Tests\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb

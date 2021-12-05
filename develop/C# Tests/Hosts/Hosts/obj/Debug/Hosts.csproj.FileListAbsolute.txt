@@ -1,0 +1,6 @@
+D:\Personale\C# Tests\Hosts\Hosts\bin\Debug\Hosts.exe.config
+D:\Personale\C# Tests\Hosts\Hosts\bin\Debug\Hosts.exe
+D:\Personale\C# Tests\Hosts\Hosts\bin\Debug\Hosts.pdb
+D:\Personale\C# Tests\Hosts\Hosts\obj\Debug\Hosts.exe
+D:\Personale\C# Tests\Hosts\Hosts\obj\Debug\Hosts.pdb
+D:\Personale\C# Tests\Hosts\Hosts\obj\Debug\Hosts.csprojResolveAssemblyReference.cache

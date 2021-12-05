@@ -1,0 +1,11 @@
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\MiniMaxSum\bin\Debug\MiniMaxSum.exe.config
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\MiniMaxSum\bin\Debug\MiniMaxSum.exe
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\MiniMaxSum\bin\Debug\MiniMaxSum.pdb
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\MiniMaxSum\obj\Debug\MiniMaxSum.exe
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\MiniMaxSum\obj\Debug\MiniMaxSum.pdb
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\bin\Debug\MiniMaxSum.exe.config
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\obj\Debug\MiniMaxSum.exe
+D:\Personale\Teste C#\MiniMaxSum\MiniMaxSum\obj\Debug\MiniMaxSum.pdb
+D:\Personale\C# Tests\01. MiniMaxSum\MiniMaxSum\bin\Debug\MiniMaxSum.exe.config
+D:\Personale\C# Tests\01. MiniMaxSum\MiniMaxSum\obj\Debug\MiniMaxSum.exe
+D:\Personale\C# Tests\01. MiniMaxSum\MiniMaxSum\obj\Debug\MiniMaxSum.pdb

@@ -1,0 +1,9 @@
+D:\Personale\Teste C#\TimeConversion\TimeConversion\TimeConversion\bin\Debug\TimeConversion.exe.config
+D:\Personale\Teste C#\TimeConversion\TimeConversion\TimeConversion\bin\Debug\TimeConversion.exe
+D:\Personale\Teste C#\TimeConversion\TimeConversion\TimeConversion\bin\Debug\TimeConversion.pdb
+D:\Personale\Teste C#\TimeConversion\TimeConversion\TimeConversion\obj\Debug\TimeConversion.exe
+D:\Personale\Teste C#\TimeConversion\TimeConversion\TimeConversion\obj\Debug\TimeConversion.pdb
+D:\Personale\Teste C#\TimeConversion\TimeConversion\TimeConversion\obj\Debug\TimeConversion.csprojResolveAssemblyReference.cache
+D:\Personale\C# Tests\02. TimeConversion\TimeConversion\bin\Debug\TimeConversion.exe.config
+D:\Personale\C# Tests\02. TimeConversion\TimeConversion\obj\Debug\TimeConversion.exe
+D:\Personale\C# Tests\02. TimeConversion\TimeConversion\obj\Debug\TimeConversion.pdb
